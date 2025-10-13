@@ -17,5 +17,25 @@
                 <UPageCard title="Mon C.V" description="Voici mon C.V que j'ai créé pour mon stage de seconde dans une agence web." icon="i-lucide-globe" class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer"></UPageCard>
             </UPageGrid>
         </UPageSection>
+
+        <USeparator />
+
+        <UPageSection title="Mes compétences" icon="i-lucide-hammer" description="Voici les pricinpales technologies que je maîtrise :">
+            <UPageGrid>
+                <UPageCard title="Javascript" icon="i-logos-javascript" description="Je miatrise javascript côté front-end et je suis entrain de l'apprendre cote backend."></UPageCard>
+                <UPageCard title="Vue.js" description="Je maitrise Vue.js, ça me permet de créer des interfaces front-end réactive et personnalisé pour chaque utilisateur." icon="i-logos-vue"></UPageCard>
+                <UPageCard title="Nuxt" description="Je maîtrise Nuxt et sa librairie de composants NuxtUI. Ça me permet de créer des interfaces moderne et épuré en peu de temps." icon="i-logos-nuxt-icon"></UPageCard>
+            </UPageGrid>
+        </UPageSection>
+
+        <USeparator />
+
+        <UPageSection title="Me contacter" description="Voici mes coordonnés pour me contacter :" icon="i-lucide-user-round">
+            <UPageGrid>
+                <UPageCard title="Github" description="Vous pouvez cliquer pour visiter mon github." icon="i-logos-github"></UPageCard>
+                <UPageCard title="Email" description="Voici mon email" icon="i-lucide-mail"></UPageCard>
+                <UPageCard title="Fiverr" description="Vour pouvez cliquer pour visiter mon Fiverr" icon="i-lucide-truck"></UPageCard>
+            </UPageGrid>
+        </UPageSection>
     </UMain>
 </template>
