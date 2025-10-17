@@ -46,13 +46,13 @@
 
 <script setup>
 import 'animate.css'
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
-gsap.registerPlugin(ScrollTrigger)
-
-onMounted(() => {
+onMounted(async () => {
   if (process.client) {
+    const gsapModule = await import('gsap')
+    const { ScrollTrigger } = await import('gsap/ScrollTrigger')
+
+    const gsap = gsapModule.default
     gsap.registerPlugin(ScrollTrigger)
 
     gsap.to(".timeline", {
