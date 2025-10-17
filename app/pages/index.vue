@@ -52,29 +52,31 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 
 onMounted(() => {
+  if (process.client) {
+    gsap.registerPlugin(ScrollTrigger)
+
     gsap.to(".timeline", {
-        x: 0,
-        opacity: 1,
-        scrollTrigger: {
-            trigger: ".timeline",
-            start: "top 80%",
-            end: "bottom 90%",
-            scrub: true,
-            markers: true
-        }
+      x: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".timeline",
+        start: "top 80%",
+        end: "bottom 90%",
+        scrub: true
+      }
     })
 
     gsap.to(".contact", {
-        x: 0,
-        opacity: 1,
-        scrollTrigger: {
-            trigger: ".contact",
-            start: "top 80%",
-            end: "bottom 95%",
-            scrub: true,
-            markers: true
-        }
+      x: 0,
+      opacity: 1,
+      scrollTrigger: {
+        trigger: ".contact",
+        start: "top 80%",
+        end: "bottom 95%",
+        scrub: true
+      }
     })
+  }
 })
 
 const timelineItems = ref([
