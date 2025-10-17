@@ -6,15 +6,15 @@
     <UContainer class=" w-full h-20" />
 
     <UMain class=" overflow-hidden">
-        <UPageSection title="Anatole BROGGI" icon="i-lucide-rocket" description="Bonjour, je suis Anatole BROGGI et je suis développeur Vue.js et Nuxt en freelance." style="animation-delay: 200ms;" class=" animate__animated animate__fadeInRight"></UPageSection>
+        <UPageSection title="Anatole BROGGI" icon="i-lucide-rocket" description="Bonjour, je suis Anatole BROGGI, développeur freelance spécialisé en Vue.js et Nuxt." style="animation-delay: 200ms;" class=" animate__animated animate__fadeInRight"></UPageSection>
 
         <USeparator />
 
-        <UPageSection title="Mes compétences" icon="i-lucide-hammer" description="Voici les pricinpales technologies que je maîtrise :" style="animation-delay: 700ms;" class=" animate__animated animate__fadeInUpBig">
+        <UPageSection title="Mes compétences" icon="i-lucide-hammer" description="Voici les principales technologies que je maîtrise :" style="animation-delay: 700ms;" class=" animate__animated animate__fadeInUpBig">
             <UPageGrid>
-                <UPageCard title="Javascript" icon="i-logos-javascript" description="Je miatrise javascript côté front-end et je suis entrain de l'apprendre cote backend." class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer"></UPageCard>
-                <UPageCard title="Vue.js" description="Je maitrise Vue.js, ça me permet de créer des interfaces front-end réactive et personnalisé pour chaque utilisateur." class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-logos-vue"></UPageCard>
-                <UPageCard title="Nuxt" description="Je maîtrise Nuxt et sa librairie de composants NuxtUI. Ça me permet de créer des interfaces moderne et épuré en peu de temps." class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-logos-nuxt-icon"></UPageCard>
+                <UPageCard title="Javascript" icon="i-logos-javascript" description="Je maîtrise JavaScript côté front-end et je suis en train de l’apprendre côté back-end." class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer"></UPageCard>
+                <UPageCard title="Vue.js" description="Je maîtrise Vue.js, ce qui me permet de créer des interfaces front-end réactives et personnalisées pour chaque utilisateur." class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-logos-vue"></UPageCard>
+                <UPageCard title="Nuxt" description="Je maîtrise Nuxt et sa librairie de composants NuxtUI. Cela me permet de créer des interfaces modernes et épurées en peu de temps." class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-logos-nuxt-icon"></UPageCard>
             </UPageGrid>
         </UPageSection>
 
@@ -28,11 +28,11 @@
 
         <USeparator />
 
-        <UPageSection class="contact -translate-x-96 opacity-0" title="Me contacter" description="Voici mes coordonnés pour me contacter :" icon="i-lucide-user-round">
+        <UPageSection class="contact -translate-x-96 opacity-0" title="Me contacter" description="Voici mes coordonnées pour me contacter :" icon="i-lucide-user-round">
             <UPageGrid>
-                <UPageCard title="Github" description="Vous pouvez cliquer pour visiter mon github." class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-logos-github"></UPageCard>
-                <UPageCard title="Email" description="Voici mon email" class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-lucide-mail"></UPageCard>
-                <UPageCard title="Fiverr" description="Vour pouvez cliquer pour visiter mon Fiverr" class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-lucide-truck"></UPageCard>
+                <UPageCard title="Github" description="Vous pouvez cliquer ici pour visiter mon GitHub." class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-logos-github" to="https://github.com/Anatole210" target="_blank"></UPageCard>
+                <UPageCard title="Email" description="Vous pouvez cliquer ici pour m'envoyer un mail" class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-lucide-mail" to="mailto:test@test.fr"></UPageCard>
+                <UPageCard title="Fiverr" description="Vous pouvez cliquer ici pour visiter mon Fiverr" class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-lucide-truck" to="https://fr.fiverr.com/s/kLVDlqL" target="_blank"></UPageCard>
             </UPageGrid>
         </UPageSection>
     </UMain>
@@ -70,7 +70,7 @@ onMounted(() => {
         scrollTrigger: {
             trigger: ".contact",
             start: "top 80%",
-            end: "bottom 90%",
+            end: "bottom 95%",
             scrub: true,
             markers: true
         }
