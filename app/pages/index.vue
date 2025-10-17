@@ -20,7 +20,7 @@
 
         <USeparator />
 
-        <UPageSection class="timeline opacity-0 translate-x-96" title="Mes parcours" description="Voici une vue d'ensemble de mon parcours :">
+        <UPageSection class="timeline opacity-0 translate-x-96" title="Mon parcours" description="Voici une vue d'ensemble de mon parcours :">
             <UContainer class=" flex flex-col items-center justify-center">
                 <UTimeline :items="timelineItems" :default-value="2" />
             </UContainer>
