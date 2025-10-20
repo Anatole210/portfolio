@@ -1,16 +1,16 @@
 <template>
-    <UHeader title="Anatole" class=" overflow-hidden shadow-2xl max-w-[1300px] w-4/5 h-20 fixed top-5 left-1/2 translate-x-[-50%] rounded-full border-2 animate__animated animate__fadeInLeftBig " style="animation-delay: 200ms;" :toggle="false">
+    <UHeader title="Anatole" class=" overflow-hidden shadow-2xl max-w-[1300px] w-4/5 h-20 fixed top-5 left-1/2 translate-x-[-50%] rounded-full border-2 animate__animated animate__fadeInLeftBig " style=" animation-duration: 800ms;" :toggle="false">
         <template #right><UColorModeSwitch /></template>
     </UHeader>
 
     <UContainer class=" w-full h-20" />
 
     <UMain class=" overflow-hidden">
-        <UPageSection title="Anatole BROGGI" icon="i-lucide-rocket" description="Bonjour, je suis Anatole BROGGI, développeur freelance spécialisé en Vue.js et Nuxt." style="animation-delay: 200ms;" class=" animate__animated animate__fadeInRight"></UPageSection>
+        <UPageSection title="Anatole BROGGI" icon="i-lucide-rocket" description="Bonjour, je suis Anatole BROGGI, développeur freelance spécialisé en Vue.js et Nuxt." style="animation-delay: 500ms; animation-duration: 800ms;" class=" animate__animated animate__fadeInRight"></UPageSection>
 
         <USeparator />
 
-        <UPageSection title="Mes compétences" icon="i-lucide-hammer" description="Voici les principales technologies que je maîtrise :" style="animation-delay: 700ms;" class=" animate__animated animate__fadeInUpBig">
+        <UPageSection title="Mes compétences" icon="i-lucide-hammer" description="Voici les principales technologies que je maîtrise :" style="animation-delay: 750ms;" class=" animate__animated animate__fadeInUpBig">
             <UPageGrid>
                 <UPageCard title="Javascript" icon="i-logos-javascript" description="Je maîtrise JavaScript côté front-end et je suis en train de l’apprendre côté back-end." class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer"></UPageCard>
                 <UPageCard title="Vue.js" description="Je maîtrise Vue.js, ce qui me permet de créer des interfaces front-end réactives et personnalisées pour chaque utilisateur." class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-logos-vue"></UPageCard>
