@@ -1,5 +1,5 @@
 <template>
-    <UHeader title="Anatole" class=" overflow-hidden shadow-2xl w-4/5 h-20 fixed top-5 left-1/2 translate-x-[-50%] rounded-full border-2 animate__animated animate__fadeInLeftBig " style="animation-delay: 200ms;" :toggle="false">
+    <UHeader title="Anatole" class=" overflow-hidden shadow-2xl max-w-[1300px] w-4/5 h-20 fixed top-5 left-1/2 translate-x-[-50%] rounded-full border-2 animate__animated animate__fadeInLeftBig " style="animation-delay: 200ms;" :toggle="false">
         <template #right><UColorModeSwitch /></template>
     </UHeader>
 
