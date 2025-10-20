@@ -31,7 +31,7 @@
         <UPageSection class="contact -translate-x-96 opacity-0" title="Me contacter" description="Voici mes coordonnées pour me contacter :" icon="i-lucide-user-round">
             <UPageGrid>
                 <UPageCard title="Github" description="Vous pouvez cliquer ici pour visiter mon GitHub." class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-logos-github" to="https://github.com/Anatole210" target="_blank"></UPageCard>
-                <UPageCard title="Email" description="Vous pouvez cliquer ici pour m'envoyer un mail" class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-lucide-mail" to="mailto:test@test.fr"></UPageCard>
+                <UPageCard title="Email" description="Vous pouvez cliquer ici pour m'envoyer un mail" class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-lucide-mail" to="mailto:anatolebroggi23@gmail.com"></UPageCard>
                 <UPageCard title="Fiverr" description="Vous pouvez cliquer ici pour visiter mon Fiverr" class=" shadow-xl hover:scale-105 hover:shadow-primary-300 transition cursor-pointer" icon="i-lucide-truck" to="https://fr.fiverr.com/s/kLVDlqL" target="_blank"></UPageCard>
             </UPageGrid>
         </UPageSection>
